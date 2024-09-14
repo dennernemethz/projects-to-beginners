@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="colors"> </div>
+    <div id="bgc"></div>
+    <button id="btn"> clique </button>
+<script>
+let colors = window.document.querySelector('#colors')
+let btn = window.document.querySelector('#btn')
+let bg = window.document.querySelector('.bg')
+
+
+btn.addEventListener('click', function(){
+
+    let cores = ['blue','red','yellow','green','purple','cyan']
+
+    let arr = cores [Math.floor(Math.random()* cores.length)]
+
+   
+
+
+
+/*
+if(arr == 'blue'){
+    colors.innerHTML = ' blue'
+}else if (arr == 'red'){
+    colors.innerHTML = ' red'
+}else if (arr == 'yellow'){
+    colors.innerHTML = 'yellow'
+}else if (arr == 'green'){ 
+    colors.innerHTML = ' green'
+}*/ 
+});
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
